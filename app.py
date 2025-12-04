@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def welcome():
-    # Render the welcome page with animated "Team SPY" text
+    # Render the welcome page with animated "༺⚡༻ 𝑫𝒊𝒗𝒚𝒂𝒏𝒔𝒉 𝒔𝒉𝒖𝒌𝒍𝒂 ༺⚡༻ 🤭🤫" text
     return render_template("welcome.html")
 
 if __name__ == "__main__":
